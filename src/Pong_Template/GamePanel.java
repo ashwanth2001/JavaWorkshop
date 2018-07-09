@@ -179,11 +179,26 @@ public class GamePanel {
 		
 	
 	
-	//Step 24: 
+	//Step 24: We will now work on the actionPerformed method
+	//The timer will trigger this method every 25 milliseconds, which we set earlier
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
+		
+		//Call this class's "repaint" method
+		
+		
+		//Place the following steps in an if statement that checks whether "play" is true
+		
+		
+		//Call the Ball's "update" method
+		
+		
+		//Call the "movePaddles", "checkEdges", and "checkCollision" method created above
+		
+		
+		
 		
 	}
 	
