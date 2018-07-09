@@ -1,4 +1,4 @@
-package Pong;
+package Pong_Solution;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -24,12 +24,12 @@ public class Ball {
 		y+=dy;
 	}
 	
-	public void setRandomAngle() {
-		dy = (int)(Math.random()*16)-8;
-	}
-	
 	public void draw(Graphics g) {
 		g.setColor(Color.RED);
 		g.fillOval(x, y, diameter, diameter);
+	}
+	
+	public void setRandomAngle() {
+		dy = (int)(Math.random()*16)-8;
 	}
 }

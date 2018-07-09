@@ -1,4 +1,4 @@
-package Pong;
+package Pong_Solution;
 
 import java.awt.event.KeyListener;
 
@@ -19,15 +19,15 @@ public class Main {
 		frame.addKeyListener((KeyListener) panel);
 	}
 	
-	public static void main(String[] args) {
-		Main main = new Main();
-		main.setup();
-	}
-	
 	private void setup() {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(width, height);
 		frame.setLocation(0,0);
 		frame.setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		Main main = new Main();
+		main.setup();
 	}
 }

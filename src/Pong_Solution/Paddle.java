@@ -1,4 +1,4 @@
-package Pong;
+package Pong_Solution;
 
 import java.awt.Color;
 import java.awt.Graphics;
