@@ -182,7 +182,9 @@ public class GamePanel {
 	//Step 24: We will now work on the actionPerformed method
 	//The timer will trigger this method every 25 milliseconds, which we set earlier
 	
-	@Override
+	
+	//Remember to uncomment the line below to use the actionPerformed method
+	//@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		
@@ -201,20 +203,22 @@ public class GamePanel {
 		
 		
 	}
-	
-	@Override
+	//remember to uncomment the line below to use the KeyListener methods
+	//@Override
 	public void keyTyped(KeyEvent e) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	//remember to uncomment the line below to use the KeyListener methods
+	//@Override
 	public void keyPressed(KeyEvent e) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
+	//remember to uncomment the line below to use the KeyListener methods
+	//@Override
 	public void keyReleased(KeyEvent e) {
 		// TODO Auto-generated method stub
 		
